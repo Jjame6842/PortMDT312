@@ -1,0 +1,36 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap:10px
+}
+
+.grid-container > div{
+	border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgb(231, 231, 231);	
+}
+h1{
+    font-size: 150px;
+	color: brown;
+	background-color: rgb(165, 161, 161);
+}
+h2{
+    color: yellow;
+	background-color: rgb(165, 161, 161);
+}
+
+#header{
+	grid-column: 1/span 2;
+    text-align: center;
+}
+
+#left{
+	grid-column: 1/span 1;
+    text-align: center;
+}
+
+#right{
+	grid-column: 2/span 1;
+    text-align: center;
+}
